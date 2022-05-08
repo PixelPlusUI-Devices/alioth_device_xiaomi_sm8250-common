@@ -89,10 +89,6 @@ persist.sys.fuse.passthrough.enable=true
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
 
-# VulkanAPI
-graphics.gpu.profiler.support=true
-graphics.gpu.profiler.vulkan_layer_apk=com.google.pixel.redbull.gpuprofiling.vulkanlayer
-
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
 
