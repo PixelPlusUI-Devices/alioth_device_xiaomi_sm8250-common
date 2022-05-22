@@ -293,7 +293,6 @@ PRODUCT_PACKAGES += \
     extphonelib_product.xml \
     libvulkan \
     memtrack.kona \
-    libsmomo.qti \
     vendor.display.config@1.5 \
     vendor.display.config@1.16.vendor \
     vendor.display.config@2.0 \
@@ -309,6 +308,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.defer_fps_frame_count=0
 
 # DRM
 PRODUCT_PACKAGES += \
