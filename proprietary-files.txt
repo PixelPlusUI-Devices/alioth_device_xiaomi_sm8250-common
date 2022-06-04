@@ -13,6 +13,7 @@ vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 
 # Audio
+vendor/lib/hw/audio.primary.kona.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -21,6 +22,13 @@ vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
+vendor/lib/liba2dpoffload.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioroute_ext.so
+vendor/lib/libfcsam.so
+vendor/lib/libresampler.so
+vendor/lib/vndk/libxlog.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
