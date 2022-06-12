@@ -140,9 +140,6 @@ persist.vendor.data.mode=concurrent
 ro.mi.development=false
 ro.opa.eligible_device=true
 
-# Multi-gen LRU
-persist.device_config.mglru_native.lru_gen_config=all
-
 # Notch Overlay
 ro.miui.notch=1
 
