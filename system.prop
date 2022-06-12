@@ -109,6 +109,7 @@ persist.vendor.ims.disableQXDMLogs=1
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.thumbnail.prefer_hw_codecs=true
 media.stagefright.audio.deep=false
 
 # RIL

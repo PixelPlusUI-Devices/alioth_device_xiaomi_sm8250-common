@@ -521,6 +521,12 @@ vendor/lib/libqcodec2_core.so|e82b50bc9574436fdc8b881cb94ffa8fae409dd3
 vendor/lib/libqcodec2_platform.so|fccd9c509fbfda6a72299d90d8d680885a1238ec
 vendor/lib/libqcodec2_utils.so|bd4026b1e20890c7e168dbe205f34691fe88b588
 vendor/lib/libqcodec2_v4l2codec.so|ad8b3a35fa377fc903a4382c47f18fe6383d7d2c
+vendor/lib64/libqcodec2_base.so|ad21dcc49bc75fdbb713e5e26eaaa1dbc46998fe
+vendor/lib64/libqcodec2_core.so|3a876b96e534f33b94cee5137779c584d9df5134
+vendor/lib64/libqcodec2_utils.so|8399f0dcdf242cab29eb44154859417d93b77d78
+vendor/lib64/libqcodec2_platform.so|02fe8f655030343a67ecb2d6ba67809736aa65f0
+vendor/lib64/libqcodec2_basecodec.so|17077854df5fdbe12a34749c59a75a4e16277e20
+vendor/lib64/libqcodec2_v4l2codec.so|d3aa201c20dac6971b2fa331f7ba577e49c75eac
 
 # Media (system) - from LA.QSSI.13.0.r1-07000.03-qssi.0
 system_ext/lib/libmmosal.so|ff554643ca1ac5c69f58e23b0e4769ce2653e27f
@@ -545,7 +551,8 @@ vendor/etc/system_properties.xml|1fef83105060b01a95a790f1504e58adb1df44f1
 
 # Media configs
 vendor/etc/media_codecs_performance.xml
-vendor/etc/media_codecs_performance_c2.xml
+vendor/etc/media_codecs_c2.xml|490211cad553ce69d536c0e55848b6a7d499260d
+vendor/etc/media_codecs_performance_c2.xml|e16b7768c91f1e15ca3ddc146a77645605a1d090
 vendor/etc/media_codecs_performance_kona.xml
 vendor/etc/media_codecs_system_default.xml
 vendor/etc/media_codecs_vendor.xml
@@ -881,6 +888,13 @@ vendor/lib64/libvpplibrary.so|9d8ee51e9a0a218a63858d7e8d67522fe3963564
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so|05c88622d43390c3b4a216755b44c2e034c282e8
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|fcda1d2266d3f66015cd6506b7f496a2033db3d8
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so|7e706225d71f5982ee8e0a9f16b218fb22147d93
+
+# Video - from LA.UM.9.12.r1-14100.01-SMxx50.QSSI13.0
+vendor/bin/mm-vidc-omx-test|98bc13ff787039cbb8ded45fe80ba98c3fa6b369
+vendor/lib/libstreamparser.so|935aabbbde4806bad2e09453c73004238d69db6f
+vendor/lib/libvideooptfeature.so|5fb8589deda269bd36c18f04ce84b3f317b5fd96
+vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
+vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
 
 # WiFi
 vendor/bin/cnss-daemon
