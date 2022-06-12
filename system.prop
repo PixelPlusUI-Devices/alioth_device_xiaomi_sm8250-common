@@ -111,6 +111,7 @@ persist.vendor.ims.disableQXDMLogs=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 media.stagefright.audio.deep=false
+ro.media.recorder-max-base-layer-fps=60
 
 # RIL
 persist.sys.fflag.override.settings_provider_model=false
